@@ -35,8 +35,8 @@
 
     /*=== Margin Bottoms ===*/
     --mb-0-25: 0.25rem;
-    --mb-05: 0.5rem;
-    --mb-75: 0.75rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
     --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
@@ -100,14 +100,72 @@ a {
     text-decoration: none;
 }
 
-/*=== Reusable CSS Classes ===*/
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*=== Reusable CSS Classes ===*/
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section_title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
+
+.section_subtitle {
+    display: block;
+    font-size: var(--smaller-font-size);
+    margin-bottom: 4rem;
+}
+
+.section_title,
+.section_subtitle {
+    text-align: center;
+}
 
 /*=== Layout ===*/
+.container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
 
 /*=== Buttons ===*/
+.button {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+}
 
+.button:hover {
+    background-color: var(--title-color-dark);
+}
+
+.button_icon {
+    margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
 
 /*=== Breakpoint ===*/
 /* Large devices */
@@ -118,7 +176,12 @@ a {
 @media screen and (max-width: 768px){
 }
 
+@media screen and (max-width: 576px) {
+}
 
+/* Small devices */
+@media screen and (max-width: 350px){
+}
 
 
 
