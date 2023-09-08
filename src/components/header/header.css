@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--container-color);
+    background-color: var(--body-color);
 }
 
 .nav {
@@ -42,3 +42,17 @@
     display: none;
 }
 
+/* Active link*/
+.active-link,
+.nav_link:hover {
+    color: var(--title-color-dark);
+}
+
+/*=== Breakpoint ===*/
+/* Medium devices */
+@media screen and (max-width: 768px){
+    .header {
+        top: initial;
+        bottom: 0;
+    }
+}
