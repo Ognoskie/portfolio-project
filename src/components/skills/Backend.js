@@ -2,7 +2,41 @@ import React from "react";
 
 const Backend = () => {
     return (
-        <div>Backend</div>
+        <div className="skills_contemnt">
+            <h3 className="skills_title">Backend developer</h3>
+
+            <div className="skills_box">
+                <div className="skills_group">
+                    <div className="skills_data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skill_name"></h3>
+                            <span className="skills_level"></span>
+                        </div>
+                    </div>
+
+                    <div className="skills_data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skill_name"></h3>
+                            <span className="skills_level"></span>
+                        </div>
+                    </div>
+
+                    <div className="skills_data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skill_name"></h3>
+                            <span className="skills_level"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     )
 }
 
