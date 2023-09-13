@@ -2,7 +2,7 @@ import React from "react";
 
 const Frontend = () => {
     return (
-        <div className="skills_contemnt">
+        <div className="skills_content">
             <h3 className="skills_title">Frontend developer</h3>
 
             <div className="skills_box">
@@ -11,7 +11,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">HTML</h3>
+                            <h3 className="skills_name">HTML</h3>
                             <span className="skills_level">Basic</span>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">CSS</h3>
+                            <h3 className="skills_name">CSS</h3>
                             <span className="skills_level">Advanced</span>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">SCSS/SASS</h3>
+                            <h3 className="skills_name">SCSS/SASS</h3>
                             <span className="skills_level">Advanced</span>
                         </div>
                     </div>
@@ -38,7 +38,20 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">JavaScript</h3>
+                            <h3 className="skills_name">Git</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="skills_group">
+                    <div className="skills_data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills_name">JavaScript</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
@@ -47,7 +60,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">Bootstrap</h3>
+                            <h3 className="skills_name">Bootstrap</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
@@ -56,7 +69,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">Tailwind</h3>
+                            <h3 className="skills_name">Tailwind</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
@@ -65,16 +78,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skill_name">Git</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills_data">
-                        <i className='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skill_name">React</h3>
+                            <h3 className="skills_name">React</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
