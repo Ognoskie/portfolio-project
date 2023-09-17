@@ -24,6 +24,7 @@ const Works = () => {
 
         const handleClick = (e, index) => {
             setItem({name: e.target.textContent});
+            setActive(index);
         };
     return (
         <div>
@@ -32,7 +33,7 @@ const Works = () => {
                     return (
                         <span onClick={(e) => {
                             handleClick(e, index);
-                        }} className="work_item" key={index}>{item.name}</span>
+                        }} className={`${active === index ? 'active-work' : ""} work_item`} key={index}>{item.name}</span>
                     )
                 })}
             </div>
