@@ -13,12 +13,12 @@ const Contact = () => {
 
                     <div className="contact_info">
                         <div className="contact_card">
-                            <i className="bx bx contact_card-icon"></i>
+                            <i className="bx bx-mail-send contact_card-icon"></i>
 
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">bradenjognoskie@gmail.com</span>
 
-                            <a href="" className="contact_button"></a>
+                            <a href="mailto:bradenjognoskie@gmail.com.com" className="contact_button"></a>
                         </div>
 
                         <div className="contact_card">
