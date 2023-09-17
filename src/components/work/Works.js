@@ -1,8 +1,16 @@
 import React from "react";
+import {projectsData} from "./Data";
+import {projectsNav} from "./Data";
 
 const Works = () => {
     return (
-        <div>Works</div>
+        <div className="work_filters">
+            {projectsNav.map((item, index) => {
+                return (
+                    <span className="work_item">{item.name}</span>
+                )
+            })}
+        </div>
     )
 }
 
