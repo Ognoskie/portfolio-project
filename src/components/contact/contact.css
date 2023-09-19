@@ -1,12 +1,8 @@
-.section_subtitle {
-    margin-bottom: unset;
-}
-
 .contact_container {
     grid-template-columns: repeat(1, max-content);
     justify-content: center;
     column-gap: 6rem;
-    padding: 3rem;
+    padding: unset 3rem 3rem;
 }
 
 .contact_title {
