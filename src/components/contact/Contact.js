@@ -18,31 +18,29 @@ const Contact = () => {
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">bradenjognoskie@gmail.com</span>
 
-                            <a href="mailto:bradenjognoskie@gmail.com.com" className="contact_button"></a>
+                            <a href="mailto:bradenjognoskie@gmail.com.com" className="contact_button"> Email me
+                                <i className="bx bx-right-arrow-alt contact_button-icon"></i>
+                            </a>
                         </div>
 
                         <div className="contact_card">
-                            <i className="bx bx contact_card-icon"></i>
+                            <i className="bx bx-phone contact_card-icon"></i>
 
                             <h3 className="contact_card-title">Cell Phone</h3>
                             <span className="contact_card-data">(210) 500-0386</span>
 
-                            <a href="" className="contact_button"></a>
+                            <a className="contact_button">Call me</a>
                         </div>
 
                         <div className="contact_card">
-                            <i className="bx bx contact_card-icon"></i>
+                            <i className="bx bx-message contact_card-icon"></i>
 
                             <h3 className="contact_card-title">Message me</h3>
                             <span className="contact_card-data">(210) 500-0386</span>
 
-                            <a href="" className="contact_button"></a>
+                            <a className="contact_button">Text me</a>
                         </div>
                     </div>
-                </div>
-
-                <div className="contact_content">
-                    <h3 className="contact_titile">Email me here!</h3>
                 </div>
             </div>
         </section>
